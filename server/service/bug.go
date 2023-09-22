@@ -19,3 +19,8 @@ func DeleteBug(bugId uint) (err error) {
 	err = global.DB.Delete(&schema.Bug{}, "id = ?", bugId).Error
 	return
 }
+
+func QueryBugs() (ret []*schema.Bug, err error) {
+	err = global.DB.Model(&schema.Bug{}).Find(&ret).Error
+	return
+}
