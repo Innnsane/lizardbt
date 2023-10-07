@@ -1,6 +1,6 @@
 package main
 
-import "lizardbt/server/handler"
+import "lizardbt/handler"
 
 func main() {
 	handler.InitRouter()

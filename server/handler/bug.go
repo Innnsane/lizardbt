@@ -2,10 +2,10 @@ package handler
 
 import (
 	"github.com/gin-gonic/gin"
-	"lizardbt/server/global"
-	"lizardbt/server/model/conv"
-	"lizardbt/server/model/conv/s2r"
-	"lizardbt/server/service"
+	"lizardbt/global"
+	"lizardbt/model/conv"
+	"lizardbt/model/conv/s2r"
+	"lizardbt/service"
 	"net/http"
 )
 

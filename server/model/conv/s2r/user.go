@@ -1,8 +1,8 @@
 package s2r
 
 import (
-	"lizardbt/server/model/response"
-	"lizardbt/server/model/schema"
+	"lizardbt/model/response"
+	"lizardbt/model/schema"
 )
 
 func User(in *schema.User) (out response.User) {

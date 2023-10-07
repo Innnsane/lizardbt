@@ -1,8 +1,8 @@
 package service
 
 import (
-	"lizardbt/server/global"
-	"lizardbt/server/model/schema"
+	"lizardbt/global"
+	"lizardbt/model/schema"
 )
 
 func CreateBug(bug *schema.Bug) (ret *schema.Bug, err error) {
